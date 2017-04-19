@@ -13,7 +13,10 @@
   },
   "dependencies": {
     "@usend/canadapost": "github:machool/-usend-canadapost#2377eca",
-    "express": "^4.15.2"
+    "dotenv": "^4.0.0",
+    "express": "^4.15.2",
+    "shipping-fedex": "^0.1.5",
+    "usend-fedex": "github:machool/usend-fedex"
   },
   "devDependencies": {
     "body-parser": "^1.17.1",
