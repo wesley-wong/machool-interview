@@ -7,11 +7,14 @@ const util = require('util');
 module.exports = (fedex) => {
 
   fedexRoutes.get('/', (req, res, next) => {
+    res.render('index');
+  });
+
+  fedexRoutes.post('/', (req,res, next) => {
 
     /**
    * Ship
    */
-  var date = new Date();
   fedex.ship({
     RequestedShipment: {
       ShipTimestamp: new Date(date.getTime() + (24*60*60*1000)).toISOString(),

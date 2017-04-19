@@ -31,6 +31,8 @@ let fedex = new fedexAPI({
 
 // routes.set(app);
 const fedexRoutes = require('./app/routes/shipments.js')(fedex);
+app.set("view engine", "ejs");
+
 app.use('/', fedexRoutes)
 
 winston.level = 'debug';
