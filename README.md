@@ -5,9 +5,6 @@
 
 *as of April 18, 6:30PM, Canada Post Signup Page is not working, and the site says that online services will not be working this weekend*
 
-![alt text](./CanadaPost.png "CanadaPost SignUp")
-![alt text](./CanadaPostMessage.png "CanadaPost Message")
-
 ## Installation:
 
   1. Change .env.example to .env and add your own FedEx Keys (UPS doesn't matter)
