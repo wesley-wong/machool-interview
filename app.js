@@ -16,6 +16,8 @@ const FEDEX_API_KEY = process.env.FEDEX_API_KEY;
 const PORT = process.env.PORT || 8080;
 const SERVER_URL = process.env.SERVER_URL || 'http://localhost';
 
+// parse application/x-www-form-urlencoded
+app.use(bodyParser.urlencoded({ extended: false }))
 app.use(bodyParser.json());
 
 let fedex = new fedexAPI({
