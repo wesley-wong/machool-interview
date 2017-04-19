@@ -1,21 +1,13 @@
-# Machool - Start shipping challenge
+# Machool - Shipping challenge
 
-## Presentation
-This project is the second part of your recruitment process.
-You want to **implement the process of non-contract shipment with the Canada Post API.** 
+### WORK IN PROGRESS
 
-Define by yourself if you want to write comments and unit tests.
 
-## CanadaPost environement
-This illustration shows the workflow of Canada Post non contract shipment. You **want to create one** and **get its label** trough the application.
+*as of April 18, 6:30PM, Canada Post Signup Page is not working, and the site says that online services will not be working this weekend*
 
-![alt tag](https://www.canadapost.ca/cpo/mc/business/productsservices/developers/images/onestepshipping_workflow_en_2.jpg)
+![alt text](./CanadaPost.png "CanadaPost SignUp")
+![alt text](./CanadaPostMessage.png "CanadaPost Message")
 
-You can find more [information here](https://www.canadapost.ca/cpo/mc/business/productsservices/developers/services/onestepshipping/default.jsf). Feel free to create an account and start working with your own credentials.
-
-## Preriquisites
-- npm
-- node
 
 ## Commands
 ```bash
@@ -29,5 +21,3 @@ Fee free to take this challenge to the next level
 - Webpack
 - Create your own logger
 - Keep in mind the multi providers pattern
-
-May the force be with you!
