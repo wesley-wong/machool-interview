@@ -8,12 +8,11 @@
 ![alt text](./CanadaPost.png "CanadaPost SignUp")
 ![alt text](./CanadaPostMessage.png "CanadaPost Message")
 
+## Installation:
 
-## Commands
-```bash
-npm i
-npm run dev
-```
+  1. Change .env.example to .env and add your own FedEx Keys (UPS doesn't matter)
+  2. ```npm i```
+  3. ```npm run dev```
 
 ## Bonus
 Fee free to take this challenge to the next level
